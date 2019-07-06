@@ -1,0 +1,2 @@
+what happens if a patient has been in remission for leukemia and there is a possible reoccurence. how do we assign icd 9?
+newly diagnosed leukemia has icd-9 code ending in. 00 (acute lymphoblastic leukemia is 204. 00 for example). acute lymphoblastic leukemia in remission is 204. 01. acute lymphoblastic leukemia in relapse is 204. 02.

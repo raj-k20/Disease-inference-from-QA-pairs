@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NITK Health Forum</title>
+    <style>
+input[type=text] {
+    width: 60px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 570px;
+}
+}
+</style>
+</head>
+<body id='t1' style='color:red' >
+<div style="margin-left: 30%;margin-top: 10%;background-image: url({{ url_for('static', filename='1.png') }});height: 200px;width: 500px;" >
+
+</div>
+<br />
+<br />
+
+<div style="margin-left: 30%;height: 200px;width: 500px;text-align: center">
+<form action="{{ url_for('handle') }}" method="POST">
+    <input type="text" name="searchQuery" placeholder="Search ..."></input><br />
+    <input type="submit" name="nothing" value="What's My Disease ?">
+</form>
+</div>
+</body>
+</html>
